@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+
+}
+footer {
+  background-color: #cc9e9e;
+  color: #fff;
+  text-align: bottom left;
+  padding: 10px;
+  position: fixed;
+  bottom: 00;
+  width: 100%;
+}
+h1 {
+  font-family: Arial, sans-serif;
+  color: rgb(30, 4, 96);
+  text-align: center;
+}
+body {
+  background: url('https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+h1 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+input[type="text"], select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
+  width: 200px;
+}
+
+select {
+  width: 220px;
+}
+
+.nav-area {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+}
+
+select, .nav-area {
+  margin-top: 20px;
+}
